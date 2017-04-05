@@ -9,8 +9,8 @@ while quickPicks > 0:
     while counter > 0:
         listy.append(random.randint(0,45))
         counter -= 1
+    listy.sort()
     print(listy)
     counter = 6
     quickPicks -= 1
 
-    
